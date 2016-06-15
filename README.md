@@ -1,2 +1,1 @@
-# sqlite-a-relational-database
-SQLite a Relational Database
+#SQLite a Relational Database
