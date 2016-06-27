@@ -20,3 +20,7 @@ insert into product values(6, 'ASD', 669);
 insert into product values(1, 'ABC', 190);
 update product set productid=1 where productname = 'DEF';
 update product set productid=2 where productname = 'ABC';
+select * from customer1, order1 where customer1.customerid==order1.orderid;select * from customer1, order1, product where customer1.customerid==order1.orderid and order1.productid == product.productid;
+select product.price from customer1, order1, product where customer1.customerid==order1.orderid and order1.productid == product.productid;
+
+
